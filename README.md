@@ -18,7 +18,7 @@ $> java -jar target/SpringBootCRUDApplicationExample-1.0.0.jar –spring.profile
 # Sobre o projeto
 
 
-###PREMISSA
+### PREMISSA
 
 Desenvolver camada visual com AngularJS e um serviço para tratar das
 regras de negócio
@@ -30,7 +30,7 @@ Fique à vontade para definir a arquitetura e o modelo de persistência.
 - Informações devem ser persistidas em um banco de dados. 
 
 
-####FLUXO DE TELA
+#### FLUXO DE TELA
 
 Criar um formulário com os seguintes campos:
 - Nome Cliente
@@ -41,7 +41,7 @@ Tipo: numérico (R$)
 Tipo: lista
 Valores possíveis: A, B e C 
 
-###REGRAS DE NEGÓCIO
+### REGRAS DE NEGÓCIO
 
 - Todas informações devem ser persistidas mais um campo indicando a
 taxa de juros.

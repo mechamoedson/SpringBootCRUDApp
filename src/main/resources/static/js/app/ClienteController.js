@@ -73,6 +73,7 @@ angular.module('crudApp').controller('ClienteController',
                         self.successMessage='Cliente atualizado com sucesso!';
                         self.errorMessage='';
                         self.done = true;
+                        reset();
                         $scope.myForm.$setPristine();
                     },
                     function(errResponse){
@@ -89,6 +90,7 @@ angular.module('crudApp').controller('ClienteController',
             ClienteService.removeCliente(id)
                 .then(
                     function(){
+                    	reset();
                         console.log('Cliente '+id + ' removido com sucesso');
                     },
                     function(errResponse){

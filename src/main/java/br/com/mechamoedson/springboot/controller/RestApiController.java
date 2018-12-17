@@ -73,7 +73,7 @@ public class RestApiController {
 		return new ResponseEntity<String>(headers, HttpStatus.CREATED);
 	}
 
-	// ------------------- Atuaiza um Cliente ------------------------------------------------
+	// ------------------- Atualiza um Cliente ------------------------------------------------
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@RequestMapping(value = "/cliente/{id}", method = RequestMethod.PUT)

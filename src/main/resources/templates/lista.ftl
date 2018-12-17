@@ -36,7 +36,7 @@
 	                    <div class="form-group col-md-12">
                             <label class="col-md-2 control-lable" for="riscoSelect"> Riscos: </label>
 	                        <div class="col-md-7">
-							    <select class="form-control" name="riscoSelect" id="riscoSelect" ng-model="ctrl.riscoSelect" >
+							    <select class="form-control" name="riscoSelect" id="riscoSelect" ng-model="ctrl.riscoSelect" required>
 					      		<option ng-repeat="risco in ctrl.riscos track by risco.tipo" {{ctrl.riscoSelect.tipo == risco.tipo ? 'selected' : ''}} value="{{risco.tipo}}">{{risco.desc}}</option>
 							    </select>
 	                        </div>

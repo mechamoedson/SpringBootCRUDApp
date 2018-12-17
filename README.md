@@ -14,6 +14,10 @@ Na raiz do projeto
 $> java -jar target/SpringBootCRUDApp-1.0.0.jar –spring.profiles.active=local
 
 
+### url
+http://localhost:8080/SpringBootCRUDApp/
+
+
 
 # Sobre o projeto
 

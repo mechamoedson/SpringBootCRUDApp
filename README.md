@@ -11,7 +11,7 @@ Executando diretamente o perfil padrão será usado. Caso você queira que um pe
 
 ## Command line::
 Na raiz do projeto
-$> java -jar target/SpringBootCRUDApplicationExample-1.0.0.jar –spring.profiles.active=local
+$> java -jar target/SpringBootCRUDApp-1.0.0.jar –spring.profiles.active=local
 
 
 

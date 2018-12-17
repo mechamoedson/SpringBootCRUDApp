@@ -22,7 +22,6 @@ $> java -jar target/SpringBootCRUDApplicationExample-1.0.0.jar –spring.profile
 
 Desenvolver camada visual com AngularJS e um serviço para tratar das
 regras de negócio
-Fique à vontade para definir a arquitetura e o modelo de persistência.
 
 - Linguagem: Java
 - Front-end: AngularJS
@@ -33,6 +32,7 @@ Fique à vontade para definir a arquitetura e o modelo de persistência.
 #### FLUXO DE TELA
 
 Criar um formulário com os seguintes campos:
+
 - Nome Cliente
 Tipo: texto
 - Limite de credito

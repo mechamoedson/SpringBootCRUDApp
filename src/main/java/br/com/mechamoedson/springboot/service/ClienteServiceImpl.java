@@ -40,6 +40,8 @@ public class ClienteServiceImpl implements ClienteService{
 			cliente.setTaxa(0.1);
 		}else if("C".equalsIgnoreCase(cliente.getRisco())) {
 			cliente.setTaxa(0.2);
+		}else {
+			cliente.setTaxa(0.0);
 		}
 		
 		clienteRepository.save(cliente);

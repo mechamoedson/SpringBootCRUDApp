@@ -45,7 +45,6 @@
 	                
 	                <div class="row">
 	                    <div class="form-actions floatRight">
-	                    	{{myForm.$invalid}}
 	                        <input type="submit"  value="{{!ctrl.cliente.id ? 'Gravar' : 'Atualizar'}}" class="btn btn-primary btn-sm" ng-disabled="myForm.$invalid || myForm.$pristine">
 	                        <button type="button" ng-click="ctrl.reset()" class="btn btn-warning btn-sm" ng-disabled="myForm.$pristine">Limpar Formulário</button>
 	                    </div>
@@ -66,6 +65,7 @@
 		                <th>NOME</th>
 		                <th>CRÉDITO R$</th>
 		                <th>RISCO</th>
+		                <th>Taxa</th>
 		                <th width="100"></th>
 		                <th width="100"></th>
 		            </tr>
@@ -76,6 +76,7 @@
 		                <td>{{c.nome}}</td>
 		                <td><span class="money">{{c.limiteCredito}}</span></td>
 		                <td>{{c.risco}}</td>
+		                <td>{{c.taxa * 100}}%</td>
 		                <td><button type="button" ng-click="ctrl.editCliente(c.id)" class="btn btn-success custom-width">Editar</button></td>
 		                <td><button type="button" ng-click="ctrl.removeCliente(c.id)" class="btn btn-danger custom-width">Remover</button></td>
 		            </tr>
